@@ -9,18 +9,17 @@
     --red-300: hsl(352 72% 50%);
     --red-400: hsl(352 82% 70%);
     --red-500: hsl(352 40% 90%);
-    --gradient-1: linear-gradient(133deg, rgba(151,12,31,1) 0%, rgba(241,116,132,1) 100%);
+    --white: #fff;
+    --black: #000;
+    --gradient-1: linear-gradient(100deg, rgba(151,12,31,1) 0%, rgba(241,116,132,1) 100%);
   }
 
 body {
     font-family: 'Oxygen', sans-serif;
     background: var(--gradient-1);
     padding: 0 4em;
-    max-width: 48ch;
     line-height: 1.6rem;
     display: grid;
-    // grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
 }
 
 a {
@@ -39,11 +38,25 @@ h1, h2, h3 {
     line-height: normal;
 }
 
+header {
+    text-align: center;
+    h1 {
+        color: var(--white);
+    }
+}
+
 .container {
     display: grid;
     gap: 1.2rem;
     margin: 2vh auto;
 }
+
+#about, #guidelines, #contribute {
+    p, li {
+        max-width: 48ch;
+    }
+}
+
 
 article > section {
     padding-block-start: 1.8rem;
