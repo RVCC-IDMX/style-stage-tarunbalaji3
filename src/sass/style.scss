@@ -15,7 +15,7 @@
 body {
     font-family: 'Oxygen', sans-serif;
     background: var(--gradient-1);
-    padding: 0 2em;
+    padding: 0 4em;
     max-width: 48ch;
     line-height: 1.6rem;
     display: grid;
@@ -41,6 +41,7 @@ h1, h2, h3 {
 .container {
     display: grid;
     gap: 1.2rem;
+    margin: 2vh auto;
 }
 
 article > section {
@@ -49,7 +50,17 @@ article > section {
 }
 
 h1::after {
-    content: url(/icons/lotus.svg);
+    content: url(/icons/Lotus-Flower.svg);
     width: 700px;
     height: 700px;
+}
+
+svg {
+    width: 1em;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 2rem;
 }
