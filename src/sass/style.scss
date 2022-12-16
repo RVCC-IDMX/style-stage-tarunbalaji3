@@ -88,7 +88,7 @@ svg {
 .link-github:hover {
     background-color: var(--red-300);
     border: 0.1rem solid var(--black);
-    border-radius: 0.5rem;
+    border-radius: 0.1rem 1rem / 1.2rem;
 }
 
 h2::after {
