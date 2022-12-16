@@ -97,6 +97,10 @@ a {
   color: var(--red-500);
 }
 
+a:hover {
+  background-color: var(--black);
+}
+
 .skip-link {
   opacity: 0;
 }
