@@ -1,1 +1,49 @@
 /* main */
+@use "./base/reset";
+@use "./pages/home";
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+    --red-100: hsl(352 100% 20%);
+    --red-200: hsl(352 85% 32%);
+    --red-300: hsl(352 72% 50%);
+    --red-400: hsl(352 82% 70%);
+    --red-500: hsl(352 40% 90%);
+    --gradient-1: linear-gradient(133deg, rgba(151,12,31,1) 0%, rgba(241,116,132,1) 100%);
+  }
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: var(--gradient-1);
+    padding: 0 2em;
+    max-width: 48ch;
+    line-height: 1.6rem;
+    display: grid;
+    gap: 2rem;
+}
+
+a {
+    color: var(--red-500);
+}
+
+.skip-link {
+    opacity: 0;
+}
+
+.skip-link:focus {
+    opacity: 1;
+}
+
+h1, h2, h3 {
+    line-height: normal;
+}
+
+.container {
+    display: grid;
+    gap: 1.2rem;
+}
+
+article > section {
+    padding-block-start: 1.8rem;
+
+}
