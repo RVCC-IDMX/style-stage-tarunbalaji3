@@ -175,3 +175,6 @@ nav a {
 #main {
   display: grid;
 }
+#main #files {
+  text-align: center;
+}
