@@ -1,13 +1,10 @@
 # Style Stage
 
+## Resources:
 
-> NOTE: This challenge is partly an exercise in accessibility and layout. One default property that tends to make layout hard are lists. This is because the position of the list marker (or list style) is, by default, outside of the element. Consider changing the marker to be inside the element.
+[CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
 
-```css
-:where(ul, ol) {
-  list-style-position: inside;
-}
-```
+[Background gradient from CSS Gradient](https://cssgradient.io)
 
 ---
 
@@ -52,12 +49,3 @@ The build process includes minifiying and autoprefixing of styles via the `postb
 
 Use this as the "Publish command" if needed by hosting services such as Netlify.
 ---
-
-### Resources
-
-[HTML Content from Style Stage by Stephanie Eckles](https://stylestage.dev)
-
-[Build Excellent Websites by Andy Bell](https://buildexcellentwebsit.es/)
-
-[Code for Bell's Build Excellent Websites (the source for the Fluid CSS code linked above) ](https://glitch.com/edit/#!/build-excellent-websites)
-
