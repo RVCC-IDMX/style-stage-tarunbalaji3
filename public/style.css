@@ -171,3 +171,7 @@ nav li {
 nav a {
   display: block;
 }
+
+#main {
+  display: grid;
+}
