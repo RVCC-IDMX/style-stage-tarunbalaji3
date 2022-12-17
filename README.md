@@ -1,10 +1,12 @@
 # Style Stage
 
-## Resources:
+## Resources used:
 
 [CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
 
 [Background gradient from CSS Gradient](https://cssgradient.io)
+
+[Fluid spacing variables from Andy Bell](https://gist.github.com/cynthiateeters/88825c17225ce01ef7461e3cd22997ca)
 
 ---
 
